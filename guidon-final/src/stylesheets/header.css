@@ -1,0 +1,49 @@
+#header {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: var(--guidon-main-blue);
+  filter: drop-shadow(0px 2px 12px rgba(0, 0, 0, 0.2));
+  margin: 0;
+}
+
+#header.opened-mobile-menu {
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.logo-banner {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-content: center;
+  padding: 20px 24px;
+  background-color: var(--guidon-main-blue);
+}
+
+.logo-banner .logo-wrapper {
+  margin: 0;
+}
+
+.logo-banner .logo-wrapper .gdn-logo {
+  height: 24px;
+  width: auto;
+}
+
+.logo-banner .hamburger-wrapper {
+  display: none;
+}
+
+.logo-banner .hamburger-wrapper .hamburger {
+  cursor: pointer;
+}
+
+.logo-banner .magnifying-glass {
+  display: none;
+  cursor: pointer;
+}
