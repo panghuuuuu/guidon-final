@@ -1,0 +1,203 @@
+#index-multimedia {
+  padding: 56px 0;
+}
+
+#index-multimedia img {
+  max-height: 300px;
+}
+#index-multimedia .multimedia-title {
+  font-family: Chivo, sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+  color: #333333;
+  margin: 0 0 16px;
+}
+
+#index-multimedia > hr {
+  margin-bottom: 32px;
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 768px) {
+  #index-multimedia .multimedia-title {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+}
+
+#index-all-categs {
+  padding-bottom: 80px;
+  word-break: break-word;
+}
+
+#index-all-categs .title {
+  font-family: Chivo, sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+  color: #333333;
+  margin: 0 0 16px;
+}
+
+#index-all-categs > hr {
+  margin-bottom: 36px;
+}
+
+#index-all-categs #categs-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 48px;
+  row-gap: 48px;
+}
+
+#index-all-categs #categs-wrapper .categ-container .top-container {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#index-all-categs #categs-wrapper .categ-container .categ {
+  color: white;
+  text-transform: uppercase;
+  font-family: Chivo, sans-serif;
+  font-size: 16px;
+  padding: 4px 8px;
+  font-weight: bold;
+}
+
+#index-all-categs #categs-wrapper .categ-container .see-all {
+  color: #a6a6a6;
+  text-transform: uppercase;
+  font-family: Chivo, sans-serif;
+  font-size: 12px;
+  text-decoration: underline;
+  margin-left: 8px;
+  flex-shrink: 0;
+}
+
+#index-all-categs #categs-wrapper .categ-container .see-all:hover {
+  color: black;
+  text-decoration-color: black;
+}
+
+#index-all-categs .article-list hr {
+  margin: 16px 0;
+}
+
+#index-all-categs .article-list .article-wrapper .title {
+  font-family: "Tiempos Headline", serif;
+  font-size: 18px;
+  font-weight: normal;
+  color: #2c2c2c;
+  margin: 0 0 8px;
+}
+
+#index-all-categs .article-list .article-wrapper .date {
+  font-family: Chivo, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #666666;
+  margin: 0;
+}
+
+#index-all-categs .article-list .article-wrapper.top {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+#index-all-categs .article-list .article-wrapper.top img {
+  width: 128px;
+  height: 128px;
+  object-fit: cover;
+  object-position: center;
+  margin: 0 16px 0 0;
+  flex-shrink: 0;
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 992px) {
+  #index-all-categs #categs-wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #index-all-categs .title {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #index-all-categs #categs-wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+
+.three-article-view {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "a0 a0"
+    "a1 a2";
+  column-gap: 24px;
+  row-gap: 32px;
+}
+
+.three-article-view .article-wrapper.l img {
+  height: 440px;
+}
+
+.three-article-view .article-wrapper.l .title {
+  font-size: 36px;
+}
+
+.three-article-view-first img,
+.three-article-view .article-wrapper.s img {
+  height: 180px;
+}
+
+.three-article-view .article-wrapper .excerpt {
+  font-size: 14px;
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (min-width: 768px) {
+  .three-article-view {
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas:
+      "a0 a1"
+      "a0 a2";
+    column-gap: 48px;
+  }
+
+  .three-article-view > *:nth-child(1) {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .three-article-view {
+    column-gap: 16px;
+    grid-template-areas: "a1 a2";
+  }
+
+  .three-article-view > *:nth-child(1) {
+    display: none;
+  }
+}

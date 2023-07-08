@@ -1,0 +1,73 @@
+#feedback {
+  background-color: #f7f7f7;
+}
+#feedback form > * {
+  display: block;
+}
+.feedback-container {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  padding-top: 56px;
+  padding-bottom: 64px;
+  column-gap: 24px;
+}
+.heading {
+  font-family: "Tiempos Headline", serif;
+  font-size: 36px;
+  font-weight: normal;
+  color: #1c489b;
+  margin: 0 0 24px;
+}
+.main-text {
+  font-family: "Tiempos Text", serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: #2c2c2c;
+  margin: 0 0 24px;
+}
+
+#feedback form label {
+  font-family: "Chivo", sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #666666;
+  margin: 0 0 8px;
+}
+
+#feedback form input[type="text"],
+form input[type="email"],
+form input[type="url"],
+form textarea {
+  width: 100%;
+  background-color: white;
+  border: 1px solid #d8d8d8;
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-family: "Chivo", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  color: #333333;
+  resize: none;
+  margin: 0 0 24px;
+}
+
+#feedback .btn {
+  border: 1px solid #1c4480;
+  border-radius: 2px;
+  background-color: #1c4480;
+  color: white;
+  padding: 8px 40px;
+  font-family: Chivo, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  height: fit-content;
+  display: block;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+#contribute-link {
+  display: flex;
+  flex-flow: column nowrap;
+}
