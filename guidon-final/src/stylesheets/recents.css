@@ -1,20 +1,26 @@
+#recents img {
+  width: 100%;
+  height: fit-content;
+  margin-bottom: 16px;
+}
 .recents-articles {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   grid-gap: 10px;
 }
 
-.container.recent-container {
+.recent-container {
   display: flex;
   flex-direction: column;
 }
 
-.container.recent-container h1 {
+.recent-container h1 {
   margin-bottom: 10px;
 }
 
 .btn {
   bottom: 0;
+  margin-top: 12px;
   margin-left: auto;
   padding: 16px 24px;
   background-color: #1c4480;

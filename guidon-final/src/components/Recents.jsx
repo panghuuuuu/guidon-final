@@ -52,3 +52,5 @@ export const Recents = () => {
     </section>
   );
 };
+
+export default Recents;
