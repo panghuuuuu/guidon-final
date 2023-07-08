@@ -1,0 +1,27 @@
+.recents-articles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-gap: 10px;
+}
+
+.container.recent-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container.recent-container h1 {
+  margin-bottom: 10px;
+}
+
+.btn {
+  bottom: 0;
+  margin-left: auto;
+  padding: 16px 24px;
+  background-color: #1c4480;
+  border-radius: 10px;
+  font-family: Chivo, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  border: 1px solid #1c4480;
+}

@@ -106,6 +106,7 @@ const Main = () => {
             </div>
           </div>
         )}
+        <hr className={isMobile ? "hide-line" : "show-line"} />
       </div>
     </section>
   );
