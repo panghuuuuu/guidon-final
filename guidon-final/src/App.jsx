@@ -5,6 +5,7 @@ import Main from "./components/Main";
 import Recents from "./components/Recents";
 import Topics from "./components/Topics";
 import Breaking from "./components/Breaking";
+import UAAP from "./components/UAAP";
 
 const App = () => {
   const [activeIcon, setActiveIcon] = useState("hamburger");
@@ -23,6 +24,7 @@ const App = () => {
       <Recents />
       <Topics />
       <Breaking />
+      <UAAP />
     </div>
   );
 };

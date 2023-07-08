@@ -1,8 +1,8 @@
 import React from "react";
-import { BreakingNews } from "../content/breaking";
-import "../stylesheets/breaking.css";
-const Breaking = () => {
-  const news = Object.entries(BreakingNews).map(([key, value], index) => (
+import "../stylesheets/uaap.css";
+import { UAAPNews } from "../content/uaap";
+const UAAP = () => {
+  const news = Object.entries(UAAPNews).map(([key, value], index) => (
     <div key={index} className="indiv-article">
       <img src={value.image} alt={key} />
       <div className="indiv-details">
@@ -16,10 +16,9 @@ const Breaking = () => {
     </div>
   ));
   return (
-    <section id="breaking">
-      <div className="container breaking-container">
-        {" "}
-        <h1>Breaking</h1>
+    <section id="uaap">
+      <div className="container uaap-container">
+        <h1>UAAP Season 85</h1>
         <div className="front-articles">{news}</div>
       </div>
       <hr />
@@ -27,4 +26,4 @@ const Breaking = () => {
   );
 };
 
-export default Breaking;
+export default UAAP;
