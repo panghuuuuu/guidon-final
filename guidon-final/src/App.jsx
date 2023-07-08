@@ -6,6 +6,7 @@ import Recents from "./components/Recents";
 import Topics from "./components/Topics";
 import Breaking from "./components/Breaking";
 import UAAP from "./components/UAAP";
+import IndexPhoto from "./components/IndexPhoto";
 
 const App = () => {
   const [activeIcon, setActiveIcon] = useState("hamburger");
@@ -25,6 +26,7 @@ const App = () => {
       <Topics />
       <Breaking />
       <UAAP />
+      <IndexPhoto />
     </div>
   );
 };
