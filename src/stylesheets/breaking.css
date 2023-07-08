@@ -1,0 +1,14 @@
+.front-articles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-auto-rows: min-content;
+  column-gap: 48px;
+  row-gap: 24px;
+  margin-bottom: 32px;
+}
+
+#breaking hr {
+  background-color: #bfbfbf;
+  height: 1px;
+  border: none;
+}

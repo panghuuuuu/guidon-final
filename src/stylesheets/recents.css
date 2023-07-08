@@ -1,0 +1,33 @@
+#recents img {
+  width: 100%;
+  height: fit-content;
+  margin-bottom: 16px;
+}
+.recents-articles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-gap: 10px;
+}
+
+.recent-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.recent-container h1 {
+  margin-bottom: 10px;
+}
+
+#recents .btn {
+  bottom: 0;
+  margin-top: 12px;
+  margin-left: auto;
+  padding: 16px 24px;
+  background-color: #1c4480;
+  border-radius: 10px;
+  font-family: Chivo, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  border: 1px solid #1c4480;
+}

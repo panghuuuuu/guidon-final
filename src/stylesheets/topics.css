@@ -1,0 +1,37 @@
+#topics {
+  background-color: #f7f7f7;
+  padding: 48px 0 52px;
+  margin: 0 0 32px;
+}
+
+#topics h2 {
+  font-family: "Chivo", sans-serif;
+  font-size: 24px;
+  color: #1c4480;
+  margin-bottom: 16px;
+}
+
+#topics p {
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+.tags-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+.tags-container .tag {
+  padding: 12px 16px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  color: #19a2ee;
+  background-color: white;
+  margin: 0 24px 20px 0;
+  transition: 0.2s;
+}
+
+.tag:hover {
+  background-color: #19a2ee;
+  color: white;
+}
