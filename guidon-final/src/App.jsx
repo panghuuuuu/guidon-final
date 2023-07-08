@@ -4,6 +4,7 @@ import Nav from "./components/Nav";
 import Main from "./components/Main";
 import Recents from "./components/Recents";
 import Topics from "./components/Topics";
+import Breaking from "./components/Breaking";
 
 const App = () => {
   const [activeIcon, setActiveIcon] = useState("hamburger");
@@ -21,6 +22,7 @@ const App = () => {
       <Main />
       <Recents />
       <Topics />
+      <Breaking />
     </div>
   );
 };
