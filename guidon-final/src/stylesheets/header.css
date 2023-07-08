@@ -10,24 +10,17 @@
   margin: 0;
 }
 
-#header.opened-mobile-menu {
-  height: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-}
-
 .logo-banner {
   display: flex;
   flex-flow: row nowrap;
-  justify-content: center;
-  align-content: center;
+  justify-content: space-between;
+  align-items: center;
   padding: 20px 24px;
   background-color: var(--guidon-main-blue);
 }
 
 .logo-banner .logo-wrapper {
-  margin: 0;
+  margin: auto;
 }
 
 .logo-banner .logo-wrapper .gdn-logo {
@@ -35,15 +28,10 @@
   width: auto;
 }
 
-.logo-banner .hamburger-wrapper {
-  display: none;
-}
-
-.logo-banner .hamburger-wrapper .hamburger {
-  cursor: pointer;
-}
-
-.logo-banner .magnifying-glass {
-  display: none;
+.logo-banner,
+.hamburger-wrapper,
+.hamburger,
+.close,
+.header-search {
   cursor: pointer;
 }
